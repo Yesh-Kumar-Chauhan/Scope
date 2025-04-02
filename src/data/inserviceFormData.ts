@@ -1,0 +1,53 @@
+import { IInservice } from "../interface/Inservice";
+import { IInserviceWorkShop } from "../interface/Inservice";
+
+export const inserviceFormDataModal: IInservice = {
+    inserviceID: 0,
+    staffId: 0,
+    training: "",
+    date: null,
+    // decimal
+    hours: 0,
+    topicId: 0,
+    workshopTypeId: 0,
+    sponsor: "",
+    notes: "",
+    flag: "",
+    paid: false,
+    paidDate:null,
+    cpr: null,
+    sHarassmentExp: null,
+    // sHarassmentExp2: null,
+    firstAid: null,
+    matDate: null,
+    matApp: null,
+    aces: null,
+    elaw: null,
+    foundations: null,
+    foundations15H: null,
+}
+export const inserviceWorkShopFormDataModal: IInserviceWorkShop = {
+    inserviceID: 0,
+    training: "",
+    date: null,
+    // decimal
+    hours: 0,
+    topicIds: [],
+    personnelIds: [],
+    workshopTypeId: 0,
+    sponsor: "",
+    notes: "",
+    flag: "",
+    paid: false,
+    paidDate:null,
+    cpr: null,
+    sHarassmentExp: null,
+    // sHarassmentExp2: null,
+    firstAid: null,
+    matDate: null,
+    matApp: null,
+    aces: null,
+    elaw: null,
+    foundations: null,
+    foundations15H: null,
+}
